@@ -30,8 +30,42 @@
           </div>
         </nav>
       </div>
-      <main class="bookNow_main">
+      <main class="main_height d-flex flex-column justify-content-center align-items-center h-md-100">
+        <div class="container d-flex flex-column justify-content-center align-items-center my-5">
+          <form action="index.html" class="container d-flex flex-column flex-lg-row justify-content-space-between border border-black rounded px-0">
 
+            <div class="event_img p-3 py-md-3 container">
+              <img src="public/events-even.jpg" alt="event-image" class="img-fluid rounded ">
+            </div>
+
+            <div class="form_fill d-flex flex-column align-items-center justify-content-center container-fluid p-3 col-12 col-lg-8">
+              <div class="container-fluid user_name form_comp">
+                <label class="col-4 col-md-3 texenter text-align-md-end" for="user_name">Name</label>:
+                <input class="col-7 col-md-9" type="text" id="user_name">
+              </div>
+              <div class="container-fluid email form_comp">
+                <label class="col-4 col-md-3  text-align-md-end" for="email">Emai</label>:
+                <input class="col-7 col-md-9" type="text" id="email">
+              </div>
+              <div class="container-fluid tel form_comp">
+                <label class="col-4 col-md-3  text-align-md-end" for="tel">Phone No.</label>:
+                <input class="col-7 col-md-9" type="tel" id="tel">
+              </div>
+              <div class="container-fluid select form_comp">
+                <label class="col-4 col-md-3  text-align-md-end" for="number">No. of seats</label>:
+                <input class="col-7 col-md-9" type="number" id="number" min="1">
+              </div>
+              <div class="container-fluid other_names form_comp">
+                <label class="col-4 col-md-3  text-align-md-end" for="others">Other Names</label>:
+                <input class="col-7 col-md-9" type="text" id="others">
+              </div>
+              <div class="d-flex justify-content-space-around mt-3">
+                <div class="col-6 d-flex justify-content-end pe-4"><button class="rounded border border-black bg-warning px-4" type="submit">Submit</button></div>
+                <div class="col-6 d-flex justify-content-start ps-4"><button class="rounded border border-black bg-warning px-4" type="reset">Clear</button</div>
+              </div>
+            </div>
+          </form>
+        </div>
       </main>
       <footer class="bg-warning m-0">
         <div class="footer_div bg-warning container p-3 d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between">
